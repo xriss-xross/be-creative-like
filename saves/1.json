@@ -1,14 +1,12 @@
 {
-  "player": {
-    "name": "Killian",
-    "gender": "Male",
-    "health": 100,
-    "inventory": {
-      "Clothes on your back": 1
-    },
-    "progress" : {
-        "chapter": 1,
-        "page" : 1
+    "player": {
+        "name": "Empty",
+        "gender": "Other",
+        "inventory": {},
+        "health": 100,
+        "progress": {
+            "chapter": 1,
+            "page": 1
+        }
     }
-  }
 }

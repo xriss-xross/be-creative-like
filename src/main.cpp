@@ -20,7 +20,7 @@ int main() {
     // runtime loop starts here
     bool status = true;
     while (status) {
-        splash_screen("Killian", "Empty", "Empty", "Empty");
+        splash_screen();
 
         // TEST CODE TO PREVENT EXIT
         std::cout << "Enter any character to exit";
