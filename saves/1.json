@@ -1,7 +1,8 @@
 {
     "player": {
-        "name": "Empty",
-        "gender": "Other",
+        "empty": false,
+        "name": "Killian",
+        "gender": "Male",
         "inventory": {},
         "health": 100,
         "progress": {

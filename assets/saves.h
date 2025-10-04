@@ -1,6 +1,5 @@
 #include <string>
 #include <sstream>
-#pragma once
 
 std::ostringstream splash_printer(
     std::string name1,
@@ -8,7 +7,7 @@ std::ostringstream splash_printer(
     std::string name3,
     std::string name4) {
         return std::ostringstream{}
-            << "\n"
+            << "\n=============================================================\n"
             << "╔══════════════════════╗╔══════════════════════╗\n"
             << "║ Save 1               ║║ Save 2               ║\n"
             << "║ " << name1 << std::string(21 - name1.size(), ' ') << "║"

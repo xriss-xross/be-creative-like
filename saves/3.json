@@ -1,5 +1,6 @@
 {
     "player": {
+        "empty": true,
         "name": "Empty",
         "gender": "Other",
         "inventory": {},

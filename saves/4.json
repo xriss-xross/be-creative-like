@@ -1,7 +1,8 @@
 {
     "player": {
-        "name": "Empty",
-        "gender": "Other",
+        "empty": false,
+        "name": "Ebony",
+        "gender": "Female",
         "inventory": {},
         "health": 100,
         "progress": {

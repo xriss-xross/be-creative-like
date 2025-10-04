@@ -22,10 +22,6 @@ int main() {
     while (status) {
         splash_screen();
 
-        // TEST CODE TO PREVENT EXIT
-        std::cout << "Enter any character to exit";
-        int inp;
-        std::cin >> inp;
         status = false;
     }
 
