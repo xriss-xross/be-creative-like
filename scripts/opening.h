@@ -10,12 +10,10 @@ int chapterOne(Player player, int page) {
         std::cin.clear();
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     } else if (inp == 1) {
-        std::cout << "Looking around, ...\n";
-    } else if (inp == 2) {
-        std::cout << "Heading towards the structure, ...\n";
+        std::cout << awaken(player, 2).str();
     } else {
-        std::cout << "Choice not available\n";
-    };
+        std::cerr << "Error: choice not available";
+    }
 
     return 0;
 }
