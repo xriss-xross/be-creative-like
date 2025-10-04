@@ -2,6 +2,7 @@
 
 #include "types.h"
 #include "player.h"
+#include "../assets/sun.h"
 
 std::ostringstream awaken(Player player, int page){
     Pronouns p = pronouns(player.getGender());
@@ -10,7 +11,7 @@ std::ostringstream awaken(Player player, int page){
     {
     case 1:
         return std::ostringstream{}
-            << "Everything ached. As the sun roused " << p.obj << " from " << p.pos
+            << SUN << "Everything ached. As the sun roused " << p.obj << " from " << p.pos
             << " sleep,\n" << p.sub << " barely had enough energy to even register "
             << p.pos << "\nsurroundings - seagulls seemed to laugh at " << p.obj << " as "
             << p.sub << "\nslowly took them in. Trees stretched across the horizon,"

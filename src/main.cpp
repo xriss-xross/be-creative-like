@@ -21,7 +21,7 @@ int main() {
     // TEST CODE
 
     std::this_thread::sleep_for(std::chrono::seconds(2));
-    std::cout << "\n=============================================================\n\n";
+    std::cout << "\n=============================================================";
 
     // runtime loop starts here
     bool status = true;
