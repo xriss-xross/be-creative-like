@@ -1,6 +1,7 @@
 #include "../assets/map.h"
 #include "../scripts/opening.h"
 
+
 int scene(Player player, int chapter, int page) {
     switch(chapter) {
         case 1:

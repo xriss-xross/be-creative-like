@@ -25,17 +25,5 @@ class Player : public Entity {
         std::string getName() const { return name; }
         std::map<std::string, int> getInventory() const { return inventory; }
         Gender getGender() const { return gender; }
-        
-        std::string getGenderString() const { 
-            switch (gender){
-                case Gender::Male:
-                    return "Male";
-                case Gender::Female:
-                    return "Female";
-                case Gender::Other:
-                    return "Other";
-                default:
-                    return "Undefined";
-            }
-        }
+
 };
