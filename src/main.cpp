@@ -3,11 +3,11 @@
 #include <thread>
 #include <chrono>
 
-#include "../assets/logo.h"
+#include "../assets/logo.hpp"
 
-#include "../scripts/player.h"
-#include "../scripts/types.h"
-#include "../scripts/splash.h"
+#include "../scripts/player.hpp"
+#include "../include/types.hpp"
+#include "../scripts/splash.hpp"
 
 int main() {
     // opening the .exe file messes up the special chars so have to be explicit

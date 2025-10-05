@@ -1,9 +1,7 @@
-#include <iostream>
 #include <map>
-#include <string>
 
-#include "../scripts/types.h"
-#include "entity.h"
+#include "../include/types.hpp"
+#include "entity.hpp"
 
 #pragma once
 

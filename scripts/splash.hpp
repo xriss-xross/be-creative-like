@@ -1,20 +1,13 @@
-#include <limits>
-#include <fstream>
-#include <vector>
-#include <string>
-#include <iostream>
-
 #include "../include/json.hpp"
-#include "../include/save_utils.h"
+#include "../include/save_utils.hpp"
 
-#include "../assets/saves.h"
+#include "../assets/saves.hpp"
 
-#include "scene.h"
+#include "scene.hpp"
 
 using json = nlohmann::ordered_json;
 
 int splash_screen() {
-
     bool splash_status = true;
     while (splash_status) {
         std::vector<std::string> names = {};

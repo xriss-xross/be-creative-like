@@ -1,4 +1,4 @@
-#include "text.h"
+#include "text.hpp"
 
 int chapterOne(Player player, int page) {
     std::cout << awaken(player, page).str();

@@ -1,5 +1,4 @@
-#include <string>
-#include <sstream>
+#pragma once
 
 std::ostringstream splash_printer(
     std::string name1,
@@ -24,7 +23,10 @@ std::ostringstream splash_printer(
             << "\nQuit ------------------------------------{ (Q)\n> ";
 }
 
-std::string genderSelect = "How would you like your character to be described?"
-                           "\nMale ------------------------------------{ (1)"
-                           "\nFemale ----------------------------------{ (2)"
-                           "\nOther -----------------------------------{ (3)\n> ";
+std::ostringstream gender_select_printer() {
+    return std::ostringstream{}
+        << "How would you like your character to be described?"
+        << "\nMale ------------------------------------{ (1)"
+        << "\nFemale ----------------------------------{ (2)"
+        << "\nOther -----------------------------------{ (3)\n> ";
+}

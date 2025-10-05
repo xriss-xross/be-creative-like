@@ -1,9 +1,6 @@
-#include <sstream>
+#include "../assets/sun.hpp"
 
-#include "../assets/sun.h"
-
-#include "types.h"
-#include "player.h"
+#include "../include/types.hpp"
 
 std::ostringstream awaken(Player player, int page){
     Pronouns p = pronouns(player.getGender());
@@ -30,4 +27,6 @@ std::ostringstream awaken(Player player, int page){
             break;
     }
 
+    return std::ostringstream{}
+        << "Coming soon!";
 }

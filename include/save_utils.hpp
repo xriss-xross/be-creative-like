@@ -1,7 +1,8 @@
-#include <string>
 #include <fstream>
+
 #include "json.hpp"
 
+#include "../assets/saves.hpp"
 
 using json = nlohmann::ordered_json;
 
@@ -37,11 +38,10 @@ void createNewSave(int slot) {
             std::cin >> name_inp;
 
             // gender
-            int genderSelect;
-            std::cout << genderSelect;
-
+            std::cout << gender_select_printer().str();
             int gender_inp;
             std::cin >> gender_inp;
+            
             if (std::cin.fail()) {
                 std::cerr << "Error: failed to read a valid input\nPlease ensure that you use integers only\n";
                 std::cin.clear();
