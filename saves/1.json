@@ -1,13 +1,13 @@
 {
     "player": {
-        "empty": false,
-        "name": "Killian",
-        "gender": "Male",
+        "empty": true,
+        "name": "Empty",
+        "gender": "Other",
         "inventory": {},
-        "health": 100,
+        "health": 0,
         "progress": {
-            "chapter": 1,
-            "page": 1
+            "chapter": 0,
+            "page": 0
         }
     }
 }
